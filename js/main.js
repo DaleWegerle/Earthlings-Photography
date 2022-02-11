@@ -199,8 +199,8 @@
         containerBricks.imagesLoaded(function () {
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
-                resize: true,
-                
+                columnWidth: '.grid-sizer',
+                percentPosition: true
             });
         });
     };

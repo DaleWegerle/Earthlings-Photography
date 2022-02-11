@@ -2518,13 +2518,21 @@ html.no-csstransitions .home-content__main {
     clear: both;
 }
 
-.masonry .grid-sizer, .masonry__brick {
-    width: 33.3%;
+.masonry{
+    max-width: 1150px;
 }
 
 .masonry__brick {
     float: left;
     padding: 0;
+}
+
+.grid-sizer, .masonry__brick--portrait{
+    width: 33.3%;
+}
+
+.masonry__brick--landscape{
+    width: 66.6%;
 }
 
 .item-folio {
