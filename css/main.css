@@ -2534,17 +2534,15 @@ html.no-csstransitions .home-content__main {
 .grid-sizer, .masonry__brick--portrait{
     width: 33%;
     /*margin-bottom: 2.5%;*/
-
 }
 
 .masonry__brick--landscape{
     width: 66%;
     /*margin-bottom: 2.5%;*/
-
 }
 
 .masonry__brick--full{
-    width: 50%;
+    width: 99%;
     /*margin-bottom: 2.5%;*/
 }
 
