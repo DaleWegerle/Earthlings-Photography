@@ -200,6 +200,7 @@
             containerBricks.masonry({
                 itemSelector: '.masonry__brick',
                 columnWidth: '.grid-sizer',
+                /*gutter: '.gutter-sizer',*/
                 percentPosition: true
             });
         });
